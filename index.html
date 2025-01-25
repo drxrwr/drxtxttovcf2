@@ -10,13 +10,17 @@
     <div class="container">
         <h1>Konversi File TXT ke VCF</h1>
 
-        <label for="fileInput">Pilih File TXT:</label>
+        <label for="fileInput">Pilih File TXT (Banyak File Dapat Dipilih):</label>
         <input type="file" id="fileInput" multiple accept=".txt">
-        
-        <div id="formContainer"></div>
+
+        <label for="contactName1">Nama Kontak 1 (Admin):</label>
+        <input type="text" id="contactName1" placeholder="Nama Kontak 1 (Admin)">
+
+        <label for="contactName2">Nama Kontak 2 (User):</label>
+        <input type="text" id="contactName2" placeholder="Nama Kontak 2 (User)">
 
         <button id="convertBtn" onclick="convertFiles()">Konvert</button>
-        
+
         <div id="resultsContainer"></div>
     </div>
 
