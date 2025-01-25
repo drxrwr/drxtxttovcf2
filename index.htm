@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi TXT ke VCF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Konversi File TXT ke VCF</h1>
+
+        <label for="fileInput">Pilih File TXT:</label>
+        <input type="file" id="fileInput" multiple accept=".txt">
+        
+        <div id="formContainer"></div>
+
+        <button id="convertBtn" onclick="convertFiles()">Konvert</button>
+        
+        <div id="resultsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
